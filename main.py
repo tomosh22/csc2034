@@ -64,9 +64,9 @@ if __name__ == "__main__":
 	datagen = ImageDataGenerator(
 		#featurewise_center=True,
 		#featurewise_std_normalization=True,
-		rotation_range=20,
-		width_shift_range=0.2,
-		height_shift_range=0.2,
+		rotation_range=15,
+		width_shift_range=0.15,
+		height_shift_range=0.15,
 		horizontal_flip=True,
 		#channel_shift_range=5,
 		#zca_whitening=True
